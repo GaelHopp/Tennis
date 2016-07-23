@@ -8,16 +8,15 @@
  *
  * Main module of the application.
  */
-angular
-  .module('tennisApp', [
-    'ngAnimate',
-    'ngAria',
+angular.module('tennisApp', [
+    //'ngAnimate',
+    //'ngAria',
     'ngCookies',
     'ngMessages',
     'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch'
+    'ngRoute'
+    //'ngSanitize',
+    //'ngTouch'
   ])
   .config(function ($routeProvider) {
     $routeProvider

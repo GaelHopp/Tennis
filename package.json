@@ -2,6 +2,7 @@
   "name": "tennis",
   "private": true,
   "devDependencies": {
+    "browser-sync": "^2.13.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "2.3.1",
     "gulp-cache": "^0.2.10",
