@@ -8,7 +8,7 @@
  * Controller of the tennisApp
  */
 angular.module('tennisApp')
-  .controller('AboutCtrl', function () {
+  .controller('HistoCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

@@ -25,10 +25,15 @@ angular.module('tennisApp', [
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+      .when('/histo', {
+        templateUrl: 'views/histo.html',
+        controller: 'HistoCtrl',
+        controllerAs: 'histo'
+      })
+      .when('/score', {
+        templateUrl: 'views/score.html',
+        controller: 'ScoreCtrl',
+        controllerAs: 'score'
       })
       .otherwise({
         redirectTo: '/'
